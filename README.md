@@ -48,7 +48,7 @@ This exercise starts where most machine-learning projects start: with raw instru
 
 - [ ] [DSAgt](https://github.com/AI-ModCon/dsagt) installed: `pip install "git+https://github.com/AI-ModCon/dsagt.git"`
 - [ ] An agent platform installed and **already authenticated** (Claude Code, Codex, Goose, opencode, or Cline)
-- [ ] Python 3.12 or later; `h5py`, `pandas`, and `scikit-learn` come with dsagt
+- [ ] Python 3.12 or later; `h5py`, `pandas`, `scikit-learn`, and `mlflow` come with dsagt (see [Local MLflow](MLFLOW.md) to check it or run your own tracking server)
 - [ ] A clone of this repository
 
 ## <img src="assets/icons/rocket.svg" width="22" height="22" alt=""> Setup
@@ -234,7 +234,7 @@ Run the script with the Python that has dsagt installed.
 > - `audit/pipeline.sh` lists your codes in the order they ran, failed attempts as comments.
 > - The readiness record has one row per measurement, from the raw file to the training table.
 > - `dsagt info` lists `battery-curation` among the project's skills.
-> - `dsagt traces` opens the MLflow viewer on the session's traces: one per agent turn and one per code run. Most input tokens are the agent re-reading its own context.
+> - `dsagt traces` opens the MLflow viewer on the session's traces: one per agent turn and one per code run. Most input tokens are the agent re-reading its own context. If port 5000 is taken, see [Local MLflow](MLFLOW.md).
 > - `dsagt info` splits the totals by session, not by mission; if you ran every mission in one session, it shows a single row. The trace timestamps in `dsagt traces` show which part of the session used the most.
 
 ---
