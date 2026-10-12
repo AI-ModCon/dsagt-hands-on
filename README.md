@@ -1,10 +1,11 @@
 # <img src="assets/icons/zap.svg" width="28" height="28" alt=""> DSAgt Hands-On
 
+> [!NOTE]
+> This is a hands-on exercise for [DSAgt](https://github.com/AI-ModCon/dsagt). For what DSAgt is, how to install it, and the reference for every command and tool, see the [DSAgt repository](https://github.com/AI-ModCon/dsagt) and its [documentation](https://ai-modcon.github.io/dsagt).
+
 ### Battery Cycling: Raw Logs to a Cycle-Life Model
 
 This exercise starts where most machine-learning projects start: with raw instrument output that no model can read. A fast-charge cycle-life campaign ran 120 lithium-ion cells at three labs. The labs sent one HDF5 file with a group per cell, and a few pages of documentation. Your goal is a model that predicts a cell's cycle life from its first 100 cycles, the task of [Severson et al., Nature Energy 2019](https://doi.org/10.1038/s41560-019-0356-8).
-
-This is a hands-on exercise for [DSAgt](https://github.com/AI-ModCon/dsagt). For what DSAgt is, how to install it, and the reference for every command and tool, see the [DSAgt repository](https://github.com/AI-ModCon/dsagt) and its [documentation](https://ai-modcon.github.io/dsagt).
 
 > [!IMPORTANT]
 > **There are no prompts to paste.** You are the scientist who owns this data; the agent is your assistant. Each mission says what you need, what to deliver, and how a reviewer will judge it. How you ask for it is up to you. The data carry the defects a real multi-lab campaign does, and none is announced.
