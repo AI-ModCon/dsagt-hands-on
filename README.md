@@ -51,6 +51,9 @@ This exercise starts where most machine-learning projects start: with raw instru
 - [ ] Python 3.12 or later; `h5py`, `pandas`, `scikit-learn`, and `mlflow` come with dsagt (see [Local MLflow](MLFLOW.md) to check it or run your own tracking server)
 - [ ] A clone of this repository
 
+> [!WARNING]
+> **Use Linux or macOS.** DSAgt is not fully supported on Windows yet.
+
 ## <img src="assets/icons/rocket.svg" width="22" height="22" alt=""> Setup
 
 **1. Create the project.**
