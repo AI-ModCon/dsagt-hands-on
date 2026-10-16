@@ -80,7 +80,7 @@ Run the script with the Python that has dsagt installed.
 ## <img src="assets/icons/package.svg" width="22" height="22" alt=""> What the Labs Sent
 
 - **`data/cycles_raw.h5`** (about 200 MB): one group per cell, `/cells/BC-0001` to `/cells/BC-0120`. Each group holds eight per-cycle 1-D datasets (`cycle_index`, `timestamp`, `discharge_capacity`, `charge_capacity`, `avg_voltage`, `max_temperature`, `internal_resistance`, `ambient_humidity`) and one 2-D dataset, `discharge_curve`: each cycle's discharge curve, the capacity delivered at the 400 voltages in the file's root `voltage_grid`. The group's attributes describe the cell and the test. Cells ran for different numbers of cycles, so the groups have different lengths.
-- **`docs/`**: the campaign protocol and a note from each lab.
+- **`docs/`**, in the project, written by the setup script: the campaign protocol and a note from each lab (`campaign_protocol.md`, `lab_A_notes.md`, `lab_B_logger_manual.md`, `lab_C_site_notes.md`).
 
 ## <img src="assets/icons/light-bulb.svg" width="22" height="22" alt=""> How to Work
 
@@ -99,7 +99,7 @@ Run the script with the Python that has dsagt installed.
 
 **Action Items:**
 
-- [ ] Make the labs' documentation searchable from the session.
+- [ ] Make the labs' documentation (in `docs/`) searchable from the session.
 - [ ] Get an assessment of `data/cycles_raw.h5`: its structure, and whether it is ready to train on, citing the documentation.
 - [ ] Before any converter is written, have the agent search the existing skills for one that already does the job.
 - [ ] Get the file turned into `data/cycles_raw.csv`.
