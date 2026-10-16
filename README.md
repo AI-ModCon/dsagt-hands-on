@@ -26,6 +26,7 @@ This exercise starts where most machine-learning projects start: with raw instru
   - [Mission 5. Hand-Off](#-mission-5-hand-off)
 - [Review](#-review)
 - [Cleanup](#-cleanup)
+- [Questions](#-questions)
 - [License](#-license)
 
 ## <img src="assets/icons/milestone.svg" width="22" height="22" alt=""> Missions at a Glance
@@ -47,7 +48,7 @@ This exercise starts where most machine-learning projects start: with raw instru
 ## <img src="assets/icons/checklist.svg" width="22" height="22" alt=""> Prerequisites
 
 - [ ] [DSAgt](https://github.com/AI-ModCon/dsagt) installed: `pip install "git+https://github.com/AI-ModCon/dsagt.git"`
-- [ ] An agent platform installed and **already authenticated** (Claude Code, Codex, Goose, opencode, or Cline)
+- [ ] An agent platform installed and **already authenticated** (Claude Code, Codex, Goose, opencode, or Cline); if your project reaches models through the American Science Cloud's Model Access Gateway (MAG), see [Get started with MAG](https://amsc-docs-d762d2.gitlab.io/mag-get-started) to get access, and [Coding Tools](https://amsc-docs-d762d2.gitlab.io/client-applications/coding-tools/) to configure your agent to use it
 - [ ] Python 3.12 or later; `h5py`, `pandas`, `scikit-learn`, and `mlflow` come with dsagt (see [Local MLflow](MLFLOW.md) to check it or run your own tracking server)
 - [ ] A clone of this repository
 
@@ -260,6 +261,10 @@ A run is complete when these exist in the project:
 ```bash
 dsagt rm battery-life -y
 ```
+
+## <img src="assets/icons/light-bulb.svg" width="22" height="22" alt=""> Questions
+
+Questions about this exercise after the Genesis Mission hackathon: Jean Luca Bez, [jlbez@lbl.gov](mailto:jlbez@lbl.gov).
 
 ## <img src="assets/icons/law.svg" width="22" height="22" alt=""> License
 
