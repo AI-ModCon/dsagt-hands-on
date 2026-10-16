@@ -47,7 +47,6 @@ This exercise starts where most machine-learning projects start: with raw instru
 
 ## <img src="assets/icons/checklist.svg" width="22" height="22" alt=""> Prerequisites
 
-- [ ] [DSAgt](https://github.com/AI-ModCon/dsagt) installed: `pip install "git+https://github.com/AI-ModCon/dsagt.git"`
 - [ ] An agent platform installed and **already authenticated** (Claude Code, Codex, Goose, opencode, or Cline); if your project reaches models through the American Science Cloud's Model Access Gateway (MAG), see [Get started with MAG](https://amsc-docs-d762d2.gitlab.io/mag-get-started) to get access, and [Coding Tools](https://amsc-docs-d762d2.gitlab.io/client-applications/coding-tools/) to configure your agent to use it
 - [ ] Python 3.12 or later; `h5py`, `pandas`, `scikit-learn`, and `mlflow` come with dsagt (see [Local MLflow](MLFLOW.md) to check it or run your own tracking server)
 - [ ] A clone of this repository
