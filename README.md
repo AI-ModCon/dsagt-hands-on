@@ -57,7 +57,19 @@ This exercise starts where most machine-learning projects start: with raw instru
 
 ## <img src="assets/icons/rocket.svg" width="22" height="22" alt=""> Setup
 
-**1. Create the project.**
+**1. Clone this repository and install DSAgt** in a virtual environment:
+
+```bash
+git clone https://github.com/AI-ModCon/dsagt-hands-on.git
+cd dsagt-hands-on
+python3 -m venv .venv
+source .venv/bin/activate
+pip install "git+https://github.com/AI-ModCon/dsagt.git"
+```
+
+Keep this environment active for the steps below.
+
+**2. Create the project.**
 
 ```bash
 dsagt init
@@ -65,7 +77,7 @@ dsagt init
 
 At the menu, name the project `battery-life`, pick your agent, and keep the defaults: the AI-readiness check stays on, and the `genesis` skill catalog is selected.
 
-**2. Write the campaign's files into the project and start the session,** from your clone of this repository:
+**3. Write the campaign's files into the project and start the session,** from your clone of this repository:
 
 ```bash
 PROJ=~/dsagt-projects/battery-life
